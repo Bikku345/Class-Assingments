@@ -1,0 +1,9 @@
+//To Print 10 20 30 40 50 60 70
+#include <stdio.h>
+main(){
+    int i;
+    for(i=10;i<=70;i+=10)
+    {
+        printf("%d\t",i);
+    }
+}
